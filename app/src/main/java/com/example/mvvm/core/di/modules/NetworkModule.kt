@@ -1,4 +1,4 @@
-package com.example.mvvm.core.di
+package com.example.mvvm.core.di.modules
 
 import com.example.mvvm.data.network.client.QuoteApiClient
 import dagger.Module

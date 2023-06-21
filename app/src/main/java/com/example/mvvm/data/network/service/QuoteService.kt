@@ -9,7 +9,7 @@ import javax.inject.Inject
 class QuoteService @Inject constructor(
     private val api: QuoteApiClient
 ) {
-    suspend fun findQuotes(): List<QuoteModel>? {
+    suspend fun finAllQuotes(): List<QuoteModel>? {
         return withContext(Dispatchers.IO) {
             val response = api.findAll()
             response.body() ?: emptyList()
