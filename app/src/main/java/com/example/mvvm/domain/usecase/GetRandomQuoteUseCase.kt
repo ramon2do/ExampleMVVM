@@ -1,7 +1,5 @@
 package com.example.mvvm.domain.usecase
 
-import com.example.mvvm.data.model.QuoteModel
-import com.example.mvvm.data.model.QuoteProvider
 import com.example.mvvm.data.repository.QuoteRepository
 import com.example.mvvm.domain.model.Quote
 import javax.inject.Inject

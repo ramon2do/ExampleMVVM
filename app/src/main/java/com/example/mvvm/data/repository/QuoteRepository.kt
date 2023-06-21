@@ -2,8 +2,6 @@ package com.example.mvvm.data.repository
 
 import com.example.mvvm.data.db.dao.QuoteDao
 import com.example.mvvm.data.db.entities.QuoteEntity
-import com.example.mvvm.data.model.QuoteModel
-import com.example.mvvm.data.model.QuoteProvider
 import com.example.mvvm.data.network.service.QuoteService
 import com.example.mvvm.domain.model.Quote
 import com.example.mvvm.domain.model.toDomain

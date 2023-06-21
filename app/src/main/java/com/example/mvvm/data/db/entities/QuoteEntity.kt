@@ -1,8 +1,8 @@
 package com.example.mvvm.data.db.entities
 
-import android.arch.persistence.room.ColumnInfo
-import android.arch.persistence.room.Entity
-import android.arch.persistence.room.PrimaryKey
+import androidx.room.ColumnInfo
+import androidx.room.Entity
+import androidx.room.PrimaryKey
 import com.example.mvvm.domain.model.Quote
 
 @Entity(tableName = "quotes_table")

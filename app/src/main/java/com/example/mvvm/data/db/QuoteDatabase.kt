@@ -1,7 +1,7 @@
 package com.example.mvvm.data.db
 
-import android.arch.persistence.room.Database
-import android.arch.persistence.room.RoomDatabase
+import androidx.room.Database
+import androidx.room.RoomDatabase
 import com.example.mvvm.data.db.dao.QuoteDao
 import com.example.mvvm.data.db.entities.QuoteEntity
 

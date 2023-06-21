@@ -34,6 +34,9 @@ android {
     buildFeatures {
         viewBinding true
     }
+    kapt {
+        generateStubs true
+    }
 }
 
 ext.lifecycle_version = '2.6.1'
@@ -63,9 +66,9 @@ dependencies {
 
 //    implementation 'org.jetbrains.anko:anko-common:0.10.1'
 
-    implementation 'android.arch.persistence.room:runtime:1.1.1'
+    implementation 'androidx.room:room-ktx:2.5.1'
 
-    kapt 'android.arch.persistence.room:compiler:1.1.1'
+    kapt 'androidx.room:room-compiler:2.5.1'
     kapt 'com.google.dagger:hilt-compiler:2.44'
 
     testImplementation 'junit:junit:4.13.2'

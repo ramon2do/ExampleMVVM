@@ -1,7 +1,7 @@
 package com.example.mvvm.core.di.modules
 
-import android.arch.persistence.room.Room
 import android.content.Context
+import androidx.room.Room
 import com.example.mvvm.data.db.QuoteDatabase
 import dagger.Module
 import dagger.Provides
