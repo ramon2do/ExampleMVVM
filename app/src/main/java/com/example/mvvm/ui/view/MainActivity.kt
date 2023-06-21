@@ -22,8 +22,8 @@ class MainActivity : AppCompatActivity() {
     private fun init() {
         quoteViewModel.onCreate()
         quoteViewModel.quoteModel.observe(this, Observer { currentQuote ->
-            binding.tvQuote.text = currentQuote.quote
-            binding.tvAuthor.text = currentQuote.author
+            binding.tvQuote.text = currentQuote?.quote
+            binding.tvAuthor.text = currentQuote?.author
         })
         quoteViewModel.isLoading.observe(this, Observer {
             binding.progress.isVisible = it
